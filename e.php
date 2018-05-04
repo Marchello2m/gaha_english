@@ -43,6 +43,9 @@
 </canvas>
 </div>
 
+
+
+
 <audio id="wheelAudio" preload="auto"  >
   <source src="sounds/WheelDecideFX1_Soft_Short.ogg" type="audio/ogg">
   <source src="sounds/WheelDecideFX1_Soft_Short.mp3" type="audio/mpeg">
@@ -61,7 +64,8 @@
 </audio>
 <br/>
 <div id="wheelbuttons" style="right:0px; bottom:0px; position:absolute; z-index:1000;">
-<img src="images/wd-audio-on.png" id="mutebutton" onclick="toggleMute(this);" value="Mute" />  <a target="_new" title="Wheel Decide | Make Your Own Wheel!" href="http://wheeldecide.com/?c1=avoid&c2=can%E2%80%99t+help&c3=+admit&c4=+dislike&c5=enjoy&c6=consider&c7=deny&c8=+feel+like&c9=+finish&c10=keep&c11=+don%E2%80%99t+mind&c12=+practise&c13=+spend+time&c14=suggest&c15=recommend&c16=miss&c17=want&c18=+ask%2C+&c19=mean%2C+&c20=manage%2C&c21=+would+like%2C&c22=+agree%2C+&c23=need%2C+&c24=offer&c25=decide%2C&c26=hope&c27=+%28can%E2%80%99t%29+afford&c28=+expect&c29=learn&c30=plan&c31=pretend&c32=+refuse&c33=++promise&c34=allow&col=winter&time=3&remove=1"><img width="50" src="images/wheel-decide-logo-edit.png" /></a><br/>
+<a href='words.php'><button class="btn" id="modifywheel" onclick="./words.php" >Modify Wheel</button> </a>
+<img src="images/wd-audio-on.png" id="mutebutton" onclick="toggleMute(this);" value="Mute" /><a target="_new" title="Wheel Decide | Make Your Own Wheel!" href="http://wheeldecide.com/?c1=avoid&c2=can%E2%80%99t+help&c3=+admit&c4=+dislike&c5=enjoy&c6=consider&c7=deny&c8=+feel+like&c9=+finish&c10=keep&c11=+don%E2%80%99t+mind&c12=+practise&c13=+spend+time&c14=suggest&c15=recommend&c16=miss&c17=want&c18=+ask%2C+&c19=mean%2C+&c20=manage%2C&c21=+would+like%2C&c22=+agree%2C+&c23=need%2C+&c24=offer&c25=decide%2C&c26=hope&c27=+%28can%E2%80%99t%29+afford&c28=+expect&c29=learn&c30=plan&c31=pretend&c32=+refuse&c33=++promise&c34=allow&col=winter&time=3&remove=1"><img width="50" src="images/wheel-decide-logo-edit.png" /></a><br/>
 </div>
 
 
