@@ -25,3 +25,5 @@ echo file_get_contents('js/words.json');
 </textarea> 
 <input id="submit" type="submit" value="Сохранить"> 
 </form>
+
+<a href='e.php'><button class="btn" id="modifywheel" onclick="e.php" >back to WHEEL</button> </a>
