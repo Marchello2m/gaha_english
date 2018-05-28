@@ -6,6 +6,7 @@
         <script type="text/javascript">
 
       var isInIframe = (parent !== window),
+      
         parentUrl = null;
 
         if (isInIframe) {
